@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/flex.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel='stylesheet' href='https://unpkg.com/nprogress@0.2.0/nprogress.css'/>
+</head>
+<script src='https://unpkg.com/nprogress@0.2.0/nprogress.js'></script>
+<script type="text/javascript">
+NProgress.start();
+</script>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<body class="flex-container">
+
+    <header class="flex-item header">
+        <h2>Mateocean</h2>
+        <p>Lightweight UI elements based on flexbox.</p>
+        <a class="github-button" href="https://github.com/mateocean/ui_framework" data-icon="octicon-star" data-size="large" aria-label="Star mateocean/ui_framework on GitHub">Star</a>
+        <a class="github-button" href="https://github.com/mateocean/ui_framework/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download mateocean/ui_framework on GitHub">Download</a>
+    </header>
+
+    <main class="flex-item main">
+        <div class="grid">
+            <div class="cell -4of12">
+                <nav>
+                  <h3>Elements</h3>
+                  <p><a href="">Heading</a></p>
+                  <p><a href="">Flexbox grid</a></p>
+                </nav>
+            </div>
+            <div class="cell -8of12">
+                <h1>Flexbox grid</h1>
+                <div class="grid">
+                    <div class="cell -6of12">
+                        <p>Grid based on <a href="https://1000ch.github.io/grd/">CSS grid framework by Shogo Sensui</a>. <b>Notice:</b> you need type all classes in lowercase! This grid is full adaptive and cross-browser.</p>
+                    </div>
+                    <div class="cell -6of12">
+                        <h3>Grid modifiers</h3>
+                        <table>
+                            <thead>
+                            <tr>
+                            <th>Vertical layout</th>
+                            <th>Description</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                            <td><code>-top</code></td>
+                            <td>Pull items to top</td>
+                            </tr>
+                            <tr>
+                            <td><code>-middle</code></td>
+                            <td>Pull items to middle</td>
+                            </tr>
+                            <tr>
+                            <td><code>-bottom</code></td>
+                            <td>Pull items to bottom</td>
+                            </tr>
+                            <tr>
+                            <td><code>-stretch</code></td>
+                            <td>Stretch items</td>
+                            </tr>
+                            <tr>
+                            <td><code>-baseline</code></td>
+                            <td>Pull items to baseline</td>
+                            </tr></tbody></table>
+
+                            <table>
+                            <thead>
+                            <tr>
+                            <th>Horizontal layout</th>
+                            <th>Description</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                            <td><code>-left</code></td>
+                            <td>Layout items to left</td>
+                            </tr>
+                            <tr>
+                            <td><code>-center</code></td>
+                            <td>Layout items To center</td>
+                            </tr>
+                            <tr>
+                            <td><code>-right</code></td>
+                            <td>Layout items to right</td>
+                            </tr>
+                            <tr>
+                            <td><code>-between</code></td>
+                            <td>Add spaces between items</td>
+                            </tr>
+                            <tr>
+                            <td><code>-around</code></td>
+                            <td>Add spaces around items</td>
+                            </tr></tbody></table>
+
+                            <h3>Cell modifiers</h3>
+                            <table>
+                            <thead>
+                            <tr>
+                            <th>Cell width</th>
+                            <th>Description</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                            <td><code>-fill</code></td>
+                            <td>Set item width to left</td>
+                            </tr>
+                            <tr>
+                            <td><code>-1of12</code></td>
+                            <td>Set item width to 8.3%</td>
+                            </tr>
+                            <tr>
+                            <td><code>-2of12</code></td>
+                            <td>Set item width to 16.7%</td>
+                            </tr>
+                            <tr>
+                            <td><code>-3of12</code></td>
+                            <td>Set item width to 25%</td>
+                            </tr>
+                            <tr>
+                            <td><code>-4of12</code></td>
+                            <td>Set item width to 33%</td>
+                            </tr>
+                            <tr>
+                            <td><code>-5of12</code></td>
+                            <td>Set item width to 41.7%</td>
+                            </tr>
+                            <tr>
+                            <td><code>-6of12</code></td>
+                            <td>Set item width to 50%</td>
+                            </tr>
+                            <tr>
+                            <td><code>-7of12</code></td>
+                            <td>Set item width to 58.3%</td>
+                            </tr>
+                            <tr>
+                            <td><code>-8of12</code></td>
+                            <td>Set item width to 66.7%</td>
+                            </tr>
+                            <tr>
+                            <td><code>-9of12</code></td>
+                            <td>Set item width to 75%</td>
+                            </tr>
+                            <tr>
+                            <td><code>-10of12</code></td>
+                            <td>Set item width to 83.3%</td>
+                            </tr>
+                            <tr>
+                            <td><code>-11of12</code></td>
+                            <td>Set item width to 91.7%</td>
+                            </tr>
+                            <tr>
+                            <td><code>-12of12</code></td>
+                            <td>Set item width to 100%</td>
+                            </tr></tbody></table>
+                    </div>
+                </div>
+
+                <div class="grid -between">
+
+                    <div class="cell -1of12 dashed">
+                    1 of 12
+                    </div>
+                    <div class="cell -11of12 dashed">
+                    11 of 12
+                    </div>
+
+                    <div class="cell -2of12 dashed">
+                    2 of 12
+                    </div>
+                    <div class="cell -10of12 dashed">
+                    10 of 12
+                    </div>
+
+                    <div class="cell -3of12 dashed">
+                    3 of 12
+                    </div>
+                    <div class="cell -9of12 dashed">
+                    9 of 12
+                    </div>
+
+                    <div class="cell -4of12 dashed">
+                    4 of 12
+                    </div>
+                    <div class="cell -8of12 dashed">
+                    8 of 12
+                    </div>
+
+                    <div class="cell -5of12 dashed">
+                    5 of 12
+                    </div>
+                    <div class="cell -7of12 dashed">
+                    7 of 12
+                    </div>
+
+                    <div class="cell -6of12 dashed">
+                    6 of 12
+                    </div>
+                    <div class="cell -6of12 dashed">
+                    6 of 12
+                    </div>
+
+                    <div class="cell -7of12 dashed">
+                    7 of 12
+                    </div>
+                    <div class="cell -5of12 dashed">
+                    5 of 12
+                    </div>
+
+                    <div class="cell -8of12 dashed">
+                    8 of 12
+                    </div>
+                    <div class="cell -4of12 dashed">
+                    4 of 12
+                    </div>
+
+                    <div class="cell -9of12 dashed">
+                    9 of 12
+                    </div>
+                    <div class="cell -3of12 dashed">
+                    3 of 12
+                    </div>
+
+                    <div class="cell -10of12 dashed">
+                    10 of 12
+                    </div>
+                    <div class="cell -2of12 dashed">
+                    2 of 12
+                    </div>
+
+                    <div class="cell -11of12 dashed">
+                    11 of 12
+                    </div>
+                    <div class="cell -1of12 dashed">
+                    1 of 12
+                    </div>
+
+                </div>
+
+                <script src="https://gist.github.com/roudhope/d5c257b2219ee61bc09d785135dba060.js"></script>
+                <h1>Typography</h1>
+                <div class="grid">
+                    <div class="cell -6of12">
+                        <p>The all based on default fonts and colors. You can use custom fonts from <a href="https://fonts.google.com">Google Fonts</a>.</p>
+                    </div>
+                    <div class="cell -6of12">
+                        <h1>Text</h1>
+                        <h2>Text</h2>
+                        <h3>Text</h3>
+                        <h4>Text</h4>
+                        <h5>Text</h5>
+                        <h6>Text</h6>
+                    </div>
+                </div>
+
+                <script src="https://gist.github.com/roudhope/104968be20ae6b0531c94fa788e2cf58.js"></script>
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="flex-item footer">
+        Footer
+    </footer>
+    <script type="text/javascript">
+    NProgress.done();
+    </script>
+</body>
